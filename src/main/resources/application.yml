@@ -11,7 +11,7 @@ spring:
         platform: h2
 
 
-    database:
+    datasource:
       url: jdbc:h2:mem:development;MODE=MYSQL;DB_CLOSE_DELAY=-1
       username: sa
       password:
